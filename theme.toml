@@ -1,0 +1,12 @@
+name = "Hugo Shortcodes"
+license = "Apache 2.0"
+licenselink = "https://github.com/santosh/hugo-shortcodes/blob/master/LICENSE"
+description = "An unofficial list of commonly used shortcodes."
+homepage = "https://github.com/santosh/hugo-shortcodes"
+tags = ["shortcodes"]
+features = ["shortcodes"]
+min_version = "0.55"
+
+[author]
+  name = "Santosh Kumar"
+  homepage = "https://santoshk.dev/"
