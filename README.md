@@ -17,6 +17,8 @@ If you are using a shortcode your blog, that you think belongs here, please make
 
 hugo-shortcodes comes as a theme component which makes it modular and easy to integrate in your existing site.
 
+## Install
+
 - `cd` to your Hugo powered site.
 
 ```bash
@@ -35,8 +37,17 @@ git submodule add https://github.com/santosh/hugo-shortcodes.git themes/hugo-sho
 theme = ["hermit", "hugo-shortcodes"]
 ```
 
-**Note**: In theme declaration in config file. Componenets listed to right will override components listed to left of it. This means if two themes components defined same things, latter will be in effect. Check out [theme component](https://gohugo.io/hugo-modules/theme-components/) docs.
+**Note**: In theme declaration in the config file. Componenets listed to the right will override components listed to the left of it. This means if two themes components defined same things, the later will be in effect. Check out [theme component](https://gohugo.io/hugo-modules/theme-components/) docs.
 
+### Update
+
+The easiest way to update hugo-shortcodes to latest is to issue following command from your main repo:
+
+```bash
+git submodule update --remote --merge themes/hugo-shortcodes
+```
+
+This will pull the latest updates from this repo and you will left to `git add` from your main repo.
 
 ## Usage
 
